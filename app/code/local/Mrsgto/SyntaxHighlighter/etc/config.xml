@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Mrsgto_SyntaxHighlighter>
+            <version>0.0.0.0.1</version>
+        </Mrsgto_SyntaxHighlighter>
+    </modules>
+    <global>
+        <helpers>
+            <mrsgto_syntaxhighlighter>
+                <class>Mrsgto_SyntaxHighlighter_Helper</class>
+            </mrsgto_syntaxhighlighter>
+        </helpers>
+        <models>
+            <mrsgto_syntaxhighlighter>
+                <class>Mrsgto_SyntaxHighlighter_Model</class>
+            </mrsgto_syntaxhighlighter>
+        </models>
+        <blocks>
+            <mrsgto_syntaxhighlighter>
+                <class>Mrsgto_SyntaxHighlighter_Block</class>
+            </mrsgto_syntaxhighlighter>
+        </blocks>
+    </global>
+    <frontend>
+	    <layout>
+		    <updates>
+		        <syntaxhighlighter>
+		            <file>mrsgto_syntaxhighlighter.xml</file>
+	            </syntaxhighlighter>
+	        </updates>
+        </layout>
+    </frontend>
+    <adminhtml>
+<!-- 	    <layout>
+		    <updates>
+		        <syntaxhighlighter>
+		            <file>mrsgto_syntaxhighlighter.xml</file>
+	            </syntaxhighlighter>
+	        </updates>
+        </layout> -->
+        <events>
+            <cms_wysiwyg_config_prepare>
+                <observers>
+                    <syntaxhighlighter>
+                        <class>Mrsgto_SyntaxHighlighter_Model_Observer</class>
+                        <method>prepareSyntaxHighlighterPluginConfig</method>
+                    </syntaxhighlighter>
+                </observers>
+            </cms_wysiwyg_config_prepare>
+        </events>
+    </adminhtml>
+    <admin>
+    </admin>
+</config>

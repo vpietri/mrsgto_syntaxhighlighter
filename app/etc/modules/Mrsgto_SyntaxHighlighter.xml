@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Mrsgto_SyntaxHighlighter>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                
+            </depends>
+        </Mrsgto_SyntaxHighlighter>
+    </modules>
+</config>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+        <reference name="footer">
+            <block type="mrsgto_syntaxhighlighter/highlight" name="syntaxhighlighter" after="-" template="mrsgto/syntaxhighlighter/highlight.phtml"/>
+        </reference>
+	</default>
+</layout>
