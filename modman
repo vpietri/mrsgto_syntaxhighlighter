@@ -1,6 +1,6 @@
 app/etc/modules/Mrsgto_SyntaxHighlighter.xml    app/etc/modules/Mrsgto_SyntaxHighlighter.xml
 app/code/local/Mrsgto/SyntaxHighlighter/    app/code/local/Mrsgto/SyntaxHighlighter/
-app/design/frontend/default/default/layout/mrsgto_syntaxhighlighter.xml    app/design/frontend/default/default/layout/mrsgto_syntaxhighlighter.xml  
-app/design/frontend/default/default/template/mrsgto/syntaxhighlighter/  app/design/frontend/default/default/template/mrsgto/syntaxhighlighter/
-skin/adminhtml/default/default/mrsgto_syntaxhighlighter/ skin/adminhtml/default/default/mrsgto_syntaxhighlighter/
-skin/frontend/base/default/mrsgto_syntaxhighlighter/   skin/frontend/base/default/mrsgto_syntaxhighlighter/
+app/design/frontend/base/default/layout/mrsgto_syntaxhighlighter.xml    app/design/frontend/base/default/layout/mrsgto/syntaxhighlighter.xml  
+app/design/frontend/base/default/template/mrsgto/syntaxhighlighter/  app/design/frontend/base/default/template/mrsgto/syntaxhighlighter/
+skin/adminhtml/base/default/mrsgto/syntaxhighlighter/ skin/adminhtml/base/default/mrsgto/syntaxhighlighter/
+skin/frontend/base/default/mrsgto/syntaxhighlighter/   skin/frontend/base/default/mrsgto/syntaxhighlighter/
