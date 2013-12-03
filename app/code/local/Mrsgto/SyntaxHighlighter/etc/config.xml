@@ -26,7 +26,7 @@
 	    <layout>
 		    <updates>
 		        <syntaxhighlighter>
-		            <file>mrsgto_syntaxhighlighter.xml</file>
+		            <file>mrsgto/syntaxhighlighter.xml</file>
 	            </syntaxhighlighter>
 	        </updates>
         </layout>

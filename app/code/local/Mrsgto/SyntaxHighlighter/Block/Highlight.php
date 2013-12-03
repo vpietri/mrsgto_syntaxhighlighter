@@ -32,13 +32,13 @@ class Mrsgto_SyntaxHighlighter_Block_Highlight extends Mage_Core_Block_Template
     	foreach($jsList as $js) {
 	    	$this->getLayout()
 	    	     ->getBlock('head')
-	    	     ->addItem('skin_js', 'mrsgto_syntaxhighlighter/scripts/' . $js);
+	    	     ->addItem('skin_js', 'mrsgto/syntaxhighlighter/scripts/' . $js);
     	}
     	
     	foreach($cssList as $css) {
     		$this->getLayout()
     		->getBlock('head')
-    		->addItem('skin_css', 'mrsgto_syntaxhighlighter/styles/' . $css);
+    		->addItem('skin_css', 'mrsgto/syntaxhighlighter/styles/' . $css);
     	}
     	
         return parent::_prepareLayout();
@@ -48,7 +48,7 @@ class Mrsgto_SyntaxHighlighter_Block_Highlight extends Mage_Core_Block_Template
     {
     	$designPackage = Mage::getDesign();
     	
-    	return $designPackage->getSkinUrl('mrsgto_syntaxhighlighter/scripts/');
+    	return $designPackage->getSkinUrl('mrsgto/syntaxhighlighter/scripts/');
     }
 
 }

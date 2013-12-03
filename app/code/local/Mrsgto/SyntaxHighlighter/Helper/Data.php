@@ -97,7 +97,7 @@ class Mrsgto_SyntaxHighlighter_Helper_Data extends Mage_Core_Helper_Abstract
         return Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'skin/' .
             $design->getArea() . '/' . 
             $design->getPackageName() . '/' . $theme . '/' .
-            'mrsgto_syntaxhighlighter' . '/' .
+            'mrsgto/syntaxhighlighter' . '/' .
             $url;	
 	}
 	
