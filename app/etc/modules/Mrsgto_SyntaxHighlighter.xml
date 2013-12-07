@@ -28,10 +28,7 @@
     <modules>
         <Mrsgto_SyntaxHighlighter>
             <active>true</active>
-            <codePool>local</codePool>
-            <depends>
-                <Mage_CMS/>
-            </depends>
+            <codePool>community</codePool>
         </Mrsgto_SyntaxHighlighter>
     </modules>
 </config>
