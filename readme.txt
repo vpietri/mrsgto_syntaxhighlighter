@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
 /**
  * Magento
  *
@@ -23,15 +21,9 @@
  * @copyright   Copyright (c) 2013 Vincent Pietri http://www.marsgento.com
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
--->
-<config>
-    <modules>
-        <Mrsgto_SyntaxHighlighter>
-            <active>true</active>
-            <codePool>local</codePool>
-            <depends>
-                <Mage_CMS/>
-            </depends>
-        </Mrsgto_SyntaxHighlighter>
-    </modules>
-</config>
+ 
+ 
+You can download the module from Magento Connect or from github
+https://github.com/Mrsgto/Mrsgto_SyntaxHighlighter
+
+If you find bugs or have improvements, please send them in.

@@ -1,6 +1,6 @@
 <?php
 /**
- * Marsgento
+ * Magento
  *
  * NOTICE OF LICENSE
  *
@@ -10,10 +10,16 @@
  * http://opensource.org/licenses/osl-3.0.php
  * If you did not receive a copy of the license and are unable to
  * obtain it through the world-wide-web, please send an email
- * to license@marsgento.com.com so we can send you a copy immediately.
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension
+ * to newer versions in the future.
  * 
  * @category    Mrsgto
  * @package     Mrsgto_SyntaxHighlighter
+ * @copyright   Copyright (c) 2013 Vincent Pietri http://www.marsgento.com
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -88,17 +94,24 @@ class Mrsgto_SyntaxHighlighter_Helper_Data extends Mage_Core_Helper_Abstract
 	}
 	public function getAdminJsPluginSrc($url)
 	{
-        $design = Mage::getDesign();
-        $theme = $design->getTheme('skin');
-        if (empty($url) || !$design->validateFile($url, array('_type' => 'skin', '_theme' => $theme))) {
-            $theme = $design->getDefaultTheme();
-        }
+//         $design = Mage::getDesign();
+//         $theme = $design->getTheme('skin');
+        
+//         if (empty($url) || !$design->validateFile($url, array('_type' => 'skin', '_theme' => $theme))) {
+//             $theme = $design->getDefaultTheme();
+//         }
+        
+//         return Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'skin/' .
+//             $design->getArea() . '/' . 
+//             $design->getPackageName() . '/' . $theme . '/' .
+//             'mrsgto/syntaxhighlighter' . '/' .
+//             $url;	
         
         return Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB) . 'skin/' .
-            $design->getArea() . '/' . 
-            $design->getPackageName() . '/' . $theme . '/' .
-            'mrsgto/syntaxhighlighter' . '/' .
-            $url;	
+        		'adminhtml' . '/' .
+        		'base' . '/' . 'default' . '/' .
+        		'mrsgto/syntaxhighlighter' . '/' .
+        		$url;
 	}
 	
 }
