@@ -30,5 +30,8 @@
             <active>true</active>
             <codePool>community</codePool>
         </Mrsgto_SyntaxHighlighter>
+        <depends>
+            <Mage_CMS/>
+        </depends>        
     </modules>
 </config>
